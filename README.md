@@ -14,11 +14,15 @@
 
 # STEPS:
 
-conda create -n mlproj python=3.8 -y 
-conda activate mlproj
-pip install -r requirements.txt
-python app.py
-Now open up your local host 0.0.0.0:8080
+- conda create -n mlproj python=3.8 -y 
+
+- conda activate mlproj
+
+- pip install -r requirements.txt
+
+- python app.py
+
+- Now open up your local host 0.0.0.0:8080
 
 # AWS-CICD-Deployment-with-Github-Actions
 
@@ -50,12 +54,12 @@ Now open up your local host 0.0.0.0:8080
 
 2. AmazonEC2FullAccess
 
-3. ## 3. Create ECR repo to store/save docker image
+## 3. Create ECR repo to store/save docker image
 
 - Save the URI: 136566696263.dkr.ecr.us-east-1.amazonaws.com/mlproject
 
-4. ## 4. Create EC2 machine (Ubuntu)
-5. ## 5. Open EC2 and Install docker in EC2 Machine:
+## 4. Create EC2 machine (Ubuntu)
+## 5. Open EC2 and Install docker in EC2 Machine:
 
 #optinal
 
@@ -89,4 +93,4 @@ AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
 ECR_REPOSITORY_NAME = simple-app
 
 
-git config --global user.name "Venura-94"
+- git config --global user.name "Venura-94"
