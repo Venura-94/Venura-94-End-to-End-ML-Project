@@ -29,14 +29,14 @@
 1. Login to AWS console.
 2. Create IAM user for deployment
 
-#with specific access
+# with specific access
 
 1. EC2 access : It is virtual machine
 
 2. ECR: Elastic Container registry to save your docker image in aws
 
 
-#Description: About the deployment
+# Description: About the deployment
 
 1. Build docker image of the source code
 
@@ -48,7 +48,7 @@
 
 5. Lauch your docker image in EC2
 
-#Policy:
+# Policy:
 
 1. AmazonEC2ContainerRegistryFullAccess
 
@@ -61,13 +61,13 @@
 ## 4. Create EC2 machine (Ubuntu)
 ## 5. Open EC2 and Install docker in EC2 Machine:
 
-#optinal
+# optinal
 
 sudo apt-get update -y
 
 sudo apt-get upgrade
 
-#required
+# required
 
 curl -fsSL https://get.docker.com -o get-docker.sh
 
